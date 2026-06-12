@@ -1,0 +1,110 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body {
+    width: 100%;
+    height: 100vh;
+ background-image: url(https://images.pexels.com/photos/2078266/pexels-photo-2078266.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display:flex;
+       justify-content:center;
+       align-items:center;
+       flex-wrap: wrap;
+}
+.container {
+    position: relative;
+    flex-direction: column;
+    /* background-color: aqua; */
+    width: 800px;
+
+    
+}
+.btn {
+    /* background-color: blue; */
+    
+}
+.text  {
+    display: flex;
+    /* background-color: aquamarine; */
+    justify-content: end;
+    color: aliceblue;
+    left: 280px;
+    position: relative;
+    top: -220px;
+}
+.text:hover {
+    color: gray;
+}
+.box1   {
+    font-size: 70px;
+    letter-spacing:10px;
+}
+.box2 {
+      letter-spacing:3px;
+      position: relative;
+      top: 20px;
+}
+.box1, .box2, .box3, .box4, .box5, .number{
+    display: flex;
+    justify-content: center;
+    top: 300;
+    /* background-color: blueviolet; */
+}
+.box1, .box2, .box4 , .number{
+    color: aliceblue;
+
+}
+.box3 {
+    position: relative;
+    display: flex;
+    text-align: center;
+ width: 150px;
+ padding: 10px;
+ margin-left: 320px;
+ background-color: lightblue;
+ font-size: 24px;
+}
+.box3:hover {
+    background-color: gray;
+}
+.box4 {
+    font-size: 40px;
+    position: relative;
+    top: 40px;
+   letter-spacing: 40px;
+}
+.box5 {
+    position: relative;
+    /* background-color: aqua; */
+    color: #ffffff43;
+    top: 260px;
+    letter-spacing: 10px;
+    border-top: 1px solid #ffffff43;
+    padding: 10px;
+}
+.progress{
+    width:500px;
+    height:8px;
+    background:white;
+    margin:20px auto; 
+box-shadow: 0px 14px 18px 4px #000000;
+}
+
+.bar{
+    width:75%;
+    height:100%;
+    background:lightblue;
+}
+.number {
+    position: relative;
+    bottom: 20px;
+    justify-content: center;
+    gap: 430px;
+}
+.fa-facebook:hover, .fa-twitter:hover, .fa-linkedin-in:hover, .fa-envelope:hover {
+    color: gray;
+}
