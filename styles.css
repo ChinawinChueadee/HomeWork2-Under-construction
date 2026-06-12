@@ -32,9 +32,9 @@ body {
     /* background-color: aquamarine; */
     justify-content: end;
     color: aliceblue;
-    left: 280px;
+    left: 200px;
     position: relative;
-    top: -220px;
+    top: -120px;
 }
 .text:hover {
     color: gray;
@@ -81,7 +81,7 @@ body {
     position: relative;
     /* background-color: aqua; */
     color: #ffffff43;
-    top: 260px;
+    top: 220px;
     letter-spacing: 10px;
     border-top: 1px solid #ffffff43;
     padding: 10px;
